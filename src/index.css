@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background-color: #F5F7FB;
+    color:#293264;
+    font-family: Karla, sans-serif;
+}
+#startPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+#startPage > h1{
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#startPage > p{
+    max-width: 400px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+button.start{
+    background-color: #4D5B9E;
+    color:#F5F7FB;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+.answerSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:13px;
+    margin: 20px 0;
+}
+
+button.answerButton{
+    background-color: #F5F7FB;
+    border: 1px solid #4D5B9E;
+    border-radius: 8px;
+    padding: 6px 12px;            
+    height: 30px;
+    color: #293264;
+    font-size: 15px;
+    font-family: Karla, sans-serif;
+    text-align: center;           
+    white-space: nowrap;
+}
+
+button.chosen{
+    background-color: #D6DBF5;
+    color: #293264;
+    border: none
+}
+
+button.correct{
+    background-color: #94D7A2;
+    border: none;
+}
+
+button.wrong{
+    background-color: #F8BCBC;
+    border: none;
+}
+
+hr{
+    max-width: 75%;
+    opacity: 20%;
+    background-color:#293264
+}
+
+.checkAndPlay{
+    background-color: #4D5B9E;
+    color:#F5F7FB;
+    padding: 15px 30px;
+    white-space: nowrap;
+    border:none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.loadButton{
+    background-color: #4D5B9E;
+    color:#F5F7FB;
+    padding: 15px 30px;
+    white-space: nowrap;
+    border:none;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+.playAgain{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.playAgain>p{
+    margin-top: 3%;
+}
+
+.loadingPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 17%;
+}
+
