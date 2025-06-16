@@ -1,7 +1,7 @@
 
 import './App.css'
 import React from "react"
-import StartQuiz from './startQuiz'
+import StartQuiz from './StartQuiz'
 import MainPage from "./MainPage"
 import {clsx} from "clsx"
 
