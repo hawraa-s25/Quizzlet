@@ -84,7 +84,7 @@ export default function App() {
                     })
                     return(  
                         <button onClick={()=>chosenAnswer(index,a)} className={className} key={i}
-                        dangerouslySetInnerHTML={{ __html: a }}/>
+                        dangerouslySetInnerHTML={{ __html: a } } disabled={hasChecked}/>
                     )
                 })}
             </div>
