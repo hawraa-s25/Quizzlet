@@ -7,6 +7,7 @@ body {
     background-color: #F5F7FB;
     color:#293264;
     font-family: Karla, sans-serif;
+    padding: 0 1rem;
 }
 #startPage{
     display: flex;
@@ -42,20 +43,25 @@ button.start{
     justify-content: center;
     gap:13px;
     margin: 20px 0;
+    flex-wrap: wrap;
 }
 
-button.answerButton{
+button.answerButton {
     background-color: #F5F7FB;
     border: 1px solid #4D5B9E;
     border-radius: 8px;
-    padding: 6px 12px;            
-    height: 30px;
+    padding: 6px 12px;
+    height: auto; 
+    width: auto;  
+    max-width: 100%; 
     color: #293264;
     font-size: 15px;
     font-family: Karla, sans-serif;
-    text-align: center;           
+    text-align: center;
     white-space: nowrap;
+    word-break: break-word; 
 }
+
 
 button.chosen{
     background-color: #D6DBF5;
@@ -120,3 +126,13 @@ hr{
     margin-top: 17%;
 }
 
+@media (max-width: 480px) {
+    .answerSection {
+        justify-content: flex-start;
+    }
+
+    button.answerButton {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+}
