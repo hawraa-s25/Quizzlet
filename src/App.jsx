@@ -157,7 +157,7 @@ export default function App() {
             <div className="playAgain">
                 <p>You scored {correctCount}/5 correct answers</p>
                 <button onClick={restart} className={buttonName}>Play again</button>
-                <button onClick={chooseNewCategory} className={buttonName}>Choose A New Category</button>
+                <button onClick={chooseNewCategory} className={buttonName}>Choose Category</button>
             </div>
             }
         </div>
